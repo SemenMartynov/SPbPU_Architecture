@@ -1,0 +1,23 @@
+{
+    "users" : [
+	{
+	  "access": 2,
+	  "name": "БиржКонтроль",
+	  "userName": "regulator",
+	  "userPassword": "regulator"
+	},
+	{
+	  "access": 1,
+	  "name": "Алексей Голобурдин",
+	  "userName": "admin1",
+	  "userPassword": "admin1"
+	},
+	{
+	  "access": 1,
+	  "name": "Николай Толстой",
+	  "userName": "admin2",
+	  "userPassword": "admin2"
+	}
+    ]
+}
+

@@ -1,0 +1,26 @@
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE "instruments" (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    "code" TEXT NOT NULL UNIQUE,
+    "enabled" INTEGER DEFAULT (1),
+    "deleted" INTEGER DEFAULT (0)
+);
+CREATE TABLE "orders" (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    "price" INTEGER,
+    "volume" INTEGER,
+    "date" INTEGER NOT NULL,
+    "direction" INTEGER,
+    "traderID" INTEGER NOT NULL,
+    "instrumentID" INTEGER NOT NULL,
+    "completed" INTEGER NOT NULL DEFAULT (0),
+    "deleted" INTEGER NOT NULL DEFAULT (0)
+);
+CREATE TABLE users (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    "name" TEXT NOT NULL,
+    "userName" TEXT NOT NULL UNIQUE,
+    "userPassword" TEXT NOT NULL,
+    "enabled" INTEGER NOT NULL DEFAULT (1),
+    "deleted" INTEGER DEFAULT (0)
+);

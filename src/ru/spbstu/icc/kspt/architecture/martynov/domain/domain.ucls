@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.Instrument.BidComparator" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/Instrument.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="196" x="1685" y="779"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="ru.spbstu.icc.kspt.edu_arh.martynov.domain.Instrument" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/edu_arh/martynov/domain/Instrument.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="367" width="233" x="1308" y="372"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.Trader" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/Trader.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="241" width="262" x="749" y="372"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.User" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/User.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="295" width="210" x="446" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.Administrator" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/Administrator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="79" width="196" x="1051" y="372"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.Order.Direction" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/Order.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1660" y="1088"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.Market" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/Market.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="259" width="253" x="1268" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.Instrument.AskComparator" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/Instrument.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="97" width="196" x="1449" y="779"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.IEnableable" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/IEnableable.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="115" width="196" x="887" y="779"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.Regulator" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/Regulator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="133" width="196" x="277" y="372"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.Anonymous" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/Anonymous.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="79" width="196" x="513" y="372"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.IMarketDataConsumer" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/IMarketDataConsumer.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="196" x="651" y="779"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="ru.spbstu.icc.kspt.edu_arh.martynov.domain.Order" project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/edu_arh/martynov/domain/Order.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="439" width="286" x="1123" y="779"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="14" language="java" name="ru.spbstu.icc.kspt.architecture.martynov.domain.User.Access" 
+    project="SimpleStockExchange" 
+    file="/SimpleStockExchange/src/ru/spbstu/icc/kspt/architecture/martynov/domain/User.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="151" width="196" x="41" y="372"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <generalization id="15">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <nesting id="17">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <nesting id="18">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <association id="19">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="20" name="access">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="21" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="23" name="bidOrders">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="24" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="25">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <nesting id="26">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </nesting>  
+  <association id="27">    
+    <bendpoint x="1277" y="372"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="28" name="consumers">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="29" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="30">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="31">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="32" name="instruments">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="33" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <realization id="35">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <nesting id="36">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </nesting>  
+  <realization id="37">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="38">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="39" name="direction">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="40" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="41">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="42">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="43" name="askOrders">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="44" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="45">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
